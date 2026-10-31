@@ -17,6 +17,16 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Screenshots
+
+### Forecast dashboard
+
+![LiquidityLab intraday forecast and reserve policy comparison](assets/liquiditylab-dashboard.png)
+
+### Stress-test replay
+
+![LiquidityLab stress-test reserve comparison](assets/liquiditylab-stress-test.png)
+
 ## Explore the simulation
 
 The default dataset contains 180 simulated days with 26 settlement windows per day. A gradient-boosting model forecasts net outflow for each window. The final period is withheld for a chronological evaluation.
